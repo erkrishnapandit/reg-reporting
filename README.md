@@ -32,33 +32,30 @@ The application aims to enhance transparency and efficiency in compliance proces
 
 To run the project locally:
 
----
 
 ### 1. Clone the repository
 
-```bash
+```
 git clone https://github.com/erkrishnapandit/reg-reporting.git
 cd reg-reporting
-
+```
 ---
 
 ### 2. Install dependencies
-
-```bash
+```
 npm install
-
+```
 ---
 
 ### 3. Start the development server
-
-```bash
+```
 npm run dev
-
+```
 ---
 
 ## 📁 Project Structure
 
-````plaintext
+```
 reg-reporting/
 ├── public/
 │   └── index.html
@@ -76,20 +73,19 @@ reg-reporting/
 │   └── main.jsx
 ├── package.json
 └── README.md
-
+```
 ---
 
 ## 🌐 Deployment
 
 The application is deployed on Netlify. To deploy your own version:
 
----
 
 ### 1. Build the project
 
-````bash
+```
 npm run build
-
+```
 ---
 
 ### 2. Deploy

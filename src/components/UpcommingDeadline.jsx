@@ -3,7 +3,7 @@ import React from 'react';
 function UpcommingDeadline(){
     return(
         <div>
-            <p className='border p-3 font-bold text-xl'>Upconning Deadline</p>
+            <p className='p-3 font-bold text-2xl'>Upconning Deadline</p>
             <div>
                 <p className='p-3'>April 25</p>
                 <hr className='h-px border-0 bg-gray-400' />

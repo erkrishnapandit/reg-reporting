@@ -3,7 +3,7 @@ import React from 'react';
 function ProcessLogs(){
     return(
         <div>
-             <p className='border p-4 font-bold text-xl'>Process Log</p>
+             <p className='p-4 font-bold text-2xl'>Process Log</p>
 
             <table className='w-full'>
                 <thead className='border border-gray-400'>

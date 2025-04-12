@@ -3,7 +3,7 @@ import React from "react";
 function AIAnomalieCheck(){
     return(
         <div className="rounded-[6px]">
-            <p className='border p-4 font-bold text-xl'>AI Anomalies Check</p>
+            <p className='p-4 font-bold text-2xl'>AI Anomalies Check</p>
              <table className='w-full border-collapse rounded-lg'>
                 <thead className='border border-gray-400'>
                     <tr>

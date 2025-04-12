@@ -3,7 +3,7 @@ import React from 'react';
 function ExcepttonKer(){
     return(
         <div>
-             <p className='border p-4 font-bold text-xl'>Exceptton Ker</p>
+             <p className='p-4 font-bold text-2xl'>Exceptton Ker</p>
             <div className='border border-gray-400 w-full rounded-[4px]'>
 
             <table className='w-full'>

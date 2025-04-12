@@ -12,21 +12,21 @@ function App() {
 
   return (
     <>
-      <div className='flex flex-col border mx-30'>
-        <div className='flex border p-4 flex-row justify-between mx-6'>
+      <div className='flex flex-col border mx-2 md:mx-30 my-10'>
+        <div className='flex p-4 flex-row justify-between mx-6'>
           <p className='font-bold text-2xl'>REG REPORTING</p>
           <p>USER</p>
         </div>
-        <div className='flex flex-col  md:flex-row justify-between'>
-          <div className='w-full md:w-1/2'>
-            <div className='border rounded-[6px] p-5 mx-6 md:ms-6 my-6'><ReportOverview/></div>
-            <div className='border rounded-[6px] p-5 mx-6 md:ms-6 my-6'><DataQualitySummary/></div>
-            <div className='border rounded-[6px] p-5 mx-6 md:ms-6 my-6'><ExcepttonKer/></div>
+        <div className='flex flex-col  xl:flex-row justify-between'>
+          <div className='flex flex-col justify-between w-full xl:w-1/2'>
+            <div className='border-2 border-gray-300 rounded-[6px] p-5 mx-6 xl:ms-6 my-4'><ReportOverview/></div>
+            <div className='border-2 border-gray-300 rounded-[6px] p-5 mx-6 xl:ms-6 my-4'><DataQualitySummary/></div>
+            <div className='border-2 border-gray-300 rounded-[6px] p-5 mx-6 xl:ms-6 my-4'><ExcepttonKer/></div>
           </div > 
-          <div className='w-full md:w-1/2' >
-            <p className='border rounded-[6px] p-5 m-2 mx-6 md:me-6 my-6'><AIAnomalieCheck/></p>
-            <p className='border rounded-[6px] p-5 m-2 mx-6 md:me-6 my-6'><UpcommingDeadline/></p>
-            <p className='border rounded-[6px] p-5 m-2 mx-6 md:me-6 my-6'><ProcessLogs/></p>
+          <div className='flex flex-col justify-between w-full xl:w-1/2' >
+            <p className='border-2 border-gray-300 rounded-[6px] p-5 m-2 mx-6 xl:me-6 my-4'><AIAnomalieCheck/></p>
+            <p className='border-2 border-gray-300 rounded-[6px] p-5 m-2 mx-6 xl:me-6 my-4'><UpcommingDeadline/></p>
+            <p className='border-2 border-gray-300 rounded-[6px] p-5 m-2 mx-6 xl:me-6 my-4'><ProcessLogs/></p>
           </div>
           
         </div>

@@ -37,3 +37,47 @@ To run the project locally:
 ```bash
 git clone https://github.com/erkrishnapandit/reg-reporting.git
 cd reg-reporting
+
+### 2. Install dependencies
+
+```bash
+npm install
+
+### 3. Start the development server
+
+```bash
+npm run dev
+
+## 📁 Project Structure
+
+````plaintext
+reg-reporting/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── AIAnomalieCheck.jsx
+│   │   └── DataQualitySummary.jsx
+│   │   ├── ExcepttonKer.jsx
+│   │   └── PieChart.jsx
+│   │   ├── ProcesssLogs.jsx
+│   │   └── ReportOverview.jsx
+│   │   └── UpcommingDeadline.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+
+## 🌐 Deployment
+
+The application is deployed on Netlify. To deploy your own version:
+
+### 1. Build the project
+
+````bash
+npm run build
+
+### 2. Deploy
+Upload the contents of the dist/ directory to Netlify
+OR connect your GitHub repository for automatic deployment.

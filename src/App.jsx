@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div className='flex flex-col border mx-2 md:mx-30 my-10'>
+      <div className='flex flex-col  rounded-sm border-2 border-gray-400  mx-2 md:mx-30 my-10'>
         <div className='flex p-4 flex-row justify-between mx-6'>
           <p className='font-bold text-2xl'>REG REPORTING</p>
           <p>USER</p>
